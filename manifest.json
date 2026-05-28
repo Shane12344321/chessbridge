@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Chess Auto-Analyzer",
+  "version": "3.1",
+  "content_scripts": [
+    {
+      "matches": ["*://*.chess.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
